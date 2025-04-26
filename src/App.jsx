@@ -12,7 +12,7 @@ import axios from "axios";
 import Markdown from "react-markdown";
 import rehypeHighlight from "rehype-highlight";
 import "highlight.js/styles/github-dark.css";
-import robot from '../assets/robot.png';
+import robot from '../src/assets/robot.png';
 
 function App() {
   const [code, setCode] = useState(
