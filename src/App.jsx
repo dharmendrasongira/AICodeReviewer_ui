@@ -12,6 +12,7 @@ import axios from "axios";
 import Markdown from "react-markdown";
 import rehypeHighlight from "rehype-highlight";
 import "highlight.js/styles/github-dark.css";
+import robot from '../assets/robot.png';
 
 function App() {
   const [code, setCode] = useState(
@@ -61,7 +62,7 @@ function App() {
       <header className="app-header">
         <div className="logo">
           <div className="logo-icon">
-            <span className="code-symbol"> <img src="../src/assets/robot.png" alt="" /></span>
+            <span className="code-symbol">   <img src={robot} alt="" /></span>
           </div>
           <h1>CodeSight AI</h1>
         </div>
